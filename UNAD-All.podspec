@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UNAD-All"
-  spec.version      = "2.9.5"
+  spec.version      = "2.9.6"
   spec.summary      = "UNAD全球版本"
 
   # This description is used to generate tags and improve search results.
@@ -137,12 +137,12 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-   spec.dependency "AnyThinkiOS", "6.4.87"
-   spec.dependency "AnyThinkBaiduSDKAdapter", "6.4.87.3"
-   spec.dependency "AnyThinkKuaiShouSDKAdapter", "6.4.87.3"
-   spec.dependency "AnyThinkTTSDKAdapter", "6.4.87.3"
-   spec.dependency "AnyThinkQMSDKAdapter", "6.4.87.1"
-   spec.dependency "AnyThinkGDTSDKAdapter", "6.4.87.3"
+   spec.dependency "AnyThinkiOS",'6.4.93'
+   spec.dependency "AnyThinkBaiduSDKAdapter",'6.4.93'
+   spec.dependency "AnyThinkKuaiShouSDKAdapter", '6.4.93'
+   spec.dependency "AnyThinkTTSDKAdapter", '6.4.93'
+   spec.dependency "AnyThinkQMSDKAdapter", '6.4.93.1'
+   spec.dependency "AnyThinkGDTSDKAdapter",'6.4.93'
   
 
    spec.dependency "AliyunLogProducer", "~> 3.1.16"
@@ -150,7 +150,7 @@ Pod::Spec.new do |spec|
    spec.dependency "BigoADS", "4.6.0"
    spec.dependency "Ads-Global", "7.2.0.5"
    spec.dependency "IronSourceSDK", "7.3.0.0"
-   spec.dependency "Google-Mobile-Ads-SDK", "12.6.0"
+   spec.dependency "Google-Mobile-Ads-SDK",'12.12.0'
    spec.dependency "AmazonPublisherServicesSDK", "4.7.5"
    spec.dependency "AppLovinSDK", "11.11.3"
    spec.dependency "GoogleMobileAdsMediationFacebook"
