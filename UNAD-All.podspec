@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UNAD-All"
-  spec.version      = "2.9.12"
+  spec.version      = "2.9.14"
   spec.summary      = "UNAD全球版本"
 
   # This description is used to generate tags and improve search results.
@@ -139,9 +139,11 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.dependency 'AliyunLogProducer','3.1.16'
 
-  #国内
-  spec.dependency 'AnyThinkiOS','6.5.34'
+  spec.dependency 'AnyThinkiOS','6.5.61'
   spec.dependency 'AnyThinkMediationAdxSmartdigimktCNAdapter','6.5.42.1'
+  spec.dependency 'AnyThinkMediationMintegralAdapter','7.7.9.0'
+  
+  #国内
   spec.dependency 'AnyThinkMediationBaiduAdapter','10.022.0'
   spec.dependency 'AnyThinkMediationZYAdapter','2.5.9.28.2'
   spec.dependency 'AnyThinkMediationKuaiShouAdapter','4.9.20.3.1'
@@ -149,19 +151,18 @@ Pod::Spec.new do |spec|
   spec.dependency 'AnyThinkMediationGDTAdapter','4.15.60.7'
   
   #国外
-  spec.dependency 'AnyThinkMediationAdmobAdapter','12.12.0.0'
-  spec.dependency 'AnyThinkMediationInmobiAdapter','10.8.8.0'
-  spec.dependency 'AnyThinkMediationApplovinAdapter','13.5.0.0'
-  spec.dependency 'AnyThinkMediationMintegralAdapter','7.7.9.0'
-  spec.dependency 'AnyThinkMediationVungleAdapter','7.6.0.1'
-  spec.dependency 'AnyThinkMediationUnityAdsAdapter','4.16.4.0'
-  spec.dependency 'AnyThinkMediationFacebookAdapter','6.20.1.0'
+  spec.dependency 'AnyThinkMediationAdmobAdapter','13.1.0.2.1'
+  spec.dependency 'AnyThinkMediationInmobiAdapter','11.1.1.2.0'
+  spec.dependency 'AnyThinkMediationApplovinAdapter','13.6.0.2.1'
+  spec.dependency 'AnyThinkMediationVungleAdapter','7.7.1.2.0'
+  spec.dependency 'AnyThinkMediationUnityAdsAdapter','4.17.0.2.0'
+  #spec.dependency 'AnyThinkMediationYandexAdapter','7.16.1.0'
+  spec.dependency 'AnyThinkMediationFacebookAdapter','6.21.1.2.1'
   spec.dependency 'IronSourceSDK','7.3.0.0'
   spec.dependency 'BigoADS','5.0.0'
-  spec.dependency 'GoogleMobileAdsMediationFacebook','6.20.1.0'
-  spec.dependency 'GoogleMobileAdsMediationVungle','7.6.0.0'
-  spec.dependency 'GoogleMobileAdsMediationPangle','7.8.0.6.0'
-  spec.dependency "AmazonPublisherServicesSDK", "4.7.5"
-
+  spec.dependency 'GoogleMobileAdsMediationFacebook','6.21.1.0'
+  spec.dependency 'GoogleMobileAdsMediationVungle','7.7.1.0'
+  spec.dependency 'GoogleMobileAdsMediationPangle','7.9.1.1.0'
+  spec.dependency "AmazonPublisherServicesSDK",'4.7.5'
 
 end
