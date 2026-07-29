@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UNAD-All"
-  spec.version      = "2.9.15C"
+  spec.version      = "2.9.16C"
   spec.summary      = "UNAD全球版本"
 
   # This description is used to generate tags and improve search results.
@@ -175,6 +175,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'Ads-CN/BUAdSDK'
 
   #国外
+  spec.dependency 'AppLovinSDK','13.6.0'
   spec.dependency 'MintegralAdSDK'
   spec.dependency 'IronSourceSDK','7.3.0.0'
   spec.dependency 'BigoADS','5.0.0'
