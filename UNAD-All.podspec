@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UNAD-All"
-  spec.version      = "2.9.16C"
+  spec.version      = "2.9.17.3"
   spec.summary      = "UNAD全球版本"
 
   # This description is used to generate tags and improve search results.
@@ -95,7 +95,7 @@ Pod::Spec.new do |spec|
   spec.exclude_files = "Classes/Exclude"
 
   # SDK的路径 写上库的位置 (自动生成没有这一项，不写会出错)
-  spec.vendored_frameworks = 'UNAD-All/UNAD.framework'
+  spec.vendored_frameworks = 'UNAD-All/UNAD.xcframework'
   # spec.public_header_files = "Classes/**/*.h"
 
 
