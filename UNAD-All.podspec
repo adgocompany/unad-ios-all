@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UNAD-All"
-  spec.version      = "2.9.17.4"
+  spec.version      = "2.9.17.5"
   spec.summary      = "UNAD全球版本"
 
   # This description is used to generate tags and improve search results.
@@ -137,8 +137,7 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency 'AliyunLogProducer','3.1.16'
-
+  spec.dependency 'AliyunLogProducer','3.1.16'
   spec.dependency 'AnyThinkiOS','6.5.61'
   spec.dependency 'AnyThinkMediationAdxSmartdigimktCNAdapter','6.5.42.1'
   spec.dependency 'AnyThinkMediationMintegralAdapter','7.7.9.0'
