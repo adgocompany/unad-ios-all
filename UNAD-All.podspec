@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UNAD-All"
-  spec.version      = "2.9.17.5"
+  spec.version      = "2.9.21"
   spec.summary      = "UNAD全球版本"
 
   # This description is used to generate tags and improve search results.
@@ -137,33 +137,48 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency 'AliyunLogProducer','3.1.16'
-  spec.dependency 'AnyThinkiOS','6.5.61'
-  spec.dependency 'AnyThinkMediationAdxSmartdigimktCNAdapter','6.5.42.1'
-  spec.dependency 'AnyThinkMediationMintegralAdapter','7.7.9.0'
+  spec.dependency 'AliyunLogProducer', '3.1.16'
+  spec.dependency 'AnyThinkiOS', '6.5.84'
+  spec.dependency 'AnyThinkMediationAdxSmartdigimktCNAdapter', '6.5.90.2.1'
+  spec.dependency 'AnyThinkMediationMintegralAdapter', '8.1.6.2.0'
+  spec.dependency 'AnyThinkMediationGDTAdapter', '4.16.12.2.0'
+  spec.dependency 'AnyThinkMediationBaiduAdapter', '10.070.2.0'
+  spec.dependency 'AnyThinkMediationKuaiShouAdapter', '5.9.10.1.2.0'
+  spec.dependency 'AnyThinkMediationFancyAdapter', '3.0.23.2.0'
+  spec.dependency 'AnyThinkMediationZYAdapter', '2.6.10.7.2.0'
+  spec.dependency 'AnyThinkMediationBeiZiAdapter', '5.5.6.0.2.0'
+  spec.dependency 'AnyThinkMediationTTAdapter', '7.8.0.5.2.1'
+  spec.dependency 'Ads-CN/BUAdSDK', '7.8.0.5'
+  spec.dependency 'BaiduMobAdSDK', '10.070'
+  spec.dependency 'GDTMobSDK', '4.16.12'
+  spec.dependency 'KSAdSDK', '5.9.10.1'
+  spec.dependency 'MagicAdSDK', '0.0.79'
+  spec.dependency 'AnyThinkMediationUnityAdsAdapter', '4.19.0.2.0'
+  spec.dependency 'AnyThinkMediationVungleAdapter', '7.7.8.2.0'
+  spec.dependency 'AnyThinkMediationIronSourceAdapter', '9.6.1.0.2.0'
+  spec.dependency 'AnyThinkMediationApplovinAdapter', '13.6.4.2.0'
+  spec.dependency 'AnyThinkMediationAdmobAdapter', '13.7.0.2.0'
+  spec.dependency 'AnyThinkMediationFacebookAdapter', '6.21.1.2.1'
+  spec.dependency 'AnyThinkMediationInmobiAdapter', '11.5.0.2.0'
+  spec.dependency 'MintegralAdSDK/All', '8.1.6'
+  spec.dependency 'AppLovinSDK', '13.6.4'
+  spec.dependency 'Google-Mobile-Ads-SDK', '13.7.0'
+  spec.dependency 'BlueSeaSDK', '1.9.0'
+  spec.dependency 'BlueSeaAdmobAdapter', '1.9.0.0'
+  spec.dependency 'Ads-Global', '8.3.0.9'
+  spec.dependency 'FBAudienceNetwork', '6.21.1'
+  spec.dependency 'BigoADS', '6.1.0'
+  spec.dependency 'GoogleMobileAdsMediationFacebook', '6.21.1.1.1'
+  spec.dependency 'GoogleMobileAdsMediationVungle', '7.7.8.0'
+  spec.dependency 'GoogleMobileAdsMediationBigo', '6.1.0.0'
+  spec.dependency 'GoogleMobileAdsMediationPangle', '8.3.0.9.0'
+  spec.dependency 'AmazonPublisherServicesSDK', '5.6.6'
+  spec.dependency 'AmazonPublisherServicesAdMobAdapter', '4.1.0'
   
   #国内
-  spec.dependency 'AnyThinkMediationBaiduAdapter','10.022.0'
-  spec.dependency 'AnyThinkMediationZYAdapter','2.5.9.28.2'
-  spec.dependency 'AnyThinkMediationKuaiShouAdapter','4.9.20.3.1'
-  spec.dependency 'AnyThinkMediationTTAdapter','7.2.0.0.7'
-  spec.dependency 'AnyThinkMediationGDTAdapter','4.15.60.7'
   
   #国外
-  spec.dependency 'AnyThinkMediationAdmobAdapter','13.1.0.2.1'
-  spec.dependency 'AnyThinkMediationInmobiAdapter','11.1.1.2.0'
-  spec.dependency 'AnyThinkMediationApplovinAdapter','13.6.0.2.1'
-  spec.dependency 'AnyThinkMediationVungleAdapter','7.7.1.2.0'
-  spec.dependency 'AnyThinkMediationUnityAdsAdapter','4.17.0.2.0'
   #spec.dependency 'AnyThinkMediationYandexAdapter','7.16.1.0'
-  spec.dependency 'AnyThinkMediationFacebookAdapter','6.21.1.2.1'
-  spec.dependency 'IronSourceSDK','7.3.0.0'
-  spec.dependency 'BigoADS','5.0.0'
-  spec.dependency 'GoogleMobileAdsMediationFacebook','6.21.1.0'
-  spec.dependency 'GoogleMobileAdsMediationVungle','7.7.1.0'
-  spec.dependency 'GoogleMobileAdsMediationPangle','7.9.1.1.0'
-  spec.dependency "AmazonPublisherServicesSDK", '~>5.0'
-  spec.dependency "AmazonPublisherServicesAdMobAdapter", '~>4.0'
 
 
   # spec.dependency 'AliyunLogProducer','3.1.16'
