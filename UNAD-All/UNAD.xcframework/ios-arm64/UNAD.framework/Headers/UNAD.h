@@ -24,7 +24,7 @@
 #import <UNAD/UNADContentHorizontalVideoFeed.h>
 #import <UNAD/UNADContentDelegate.h>
 #import <UNAD/UNADContentCallBackProtocol.h>
-
+#import <UNAD/UNADOrientationManager.h>
 
 //#define INCLUDE_CONTENT_SDK YES
 //#define CN_ONLY YES //单独国内版本
@@ -38,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 //当前版本号
 
-#define UNAD_SDK_VERSION  @"2.9.17.4"
+#define UNAD_SDK_VERSION  @"2.9.21"
 
 
 //测试应用ID
@@ -111,6 +111,16 @@ typedef NS_ENUM(NSInteger,UNADArea) {
 
 //广告静音
 + (void)setAdsMuted:(BOOL)muted;
+
+/// Set only after the user has made a GDPR choice applicable to these ad partners.
+/// Call on the main thread before initWithAppID: and again whenever the choice changes. This does not
+/// collect consent or replace a certified CMP and its TCF signals.
++ (void)setGDPRConsent:(BOOL)consent;
+
+/// YES means the user opted out of sale/sharing of personal information.
+/// Call on the main thread before initWithAppID: and again whenever the choice changes. Supply
+/// applicable IAB privacy signals through the app's CMP as well.
++ (void)setCCPADoNotSell:(BOOL)doNotSell;
 
 @end
 
