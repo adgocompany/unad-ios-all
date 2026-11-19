@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UNAD-All"
-  spec.version      = "2.9.17.5"
+  spec.version      = "2.9.23"
   spec.summary      = "UNAD全球版本"
 
   # This description is used to generate tags and improve search results.
@@ -65,7 +65,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-   spec.platform     = :ios, "15.0"
+   spec.platform     = :ios, "13.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -148,25 +148,30 @@ Pod::Spec.new do |spec|
   spec.dependency 'AnyThinkMediationZYAdapter', '2.6.10.7.2.0'
   spec.dependency 'AnyThinkMediationBeiZiAdapter', '5.5.6.0.2.0'
   spec.dependency 'AnyThinkMediationTTAdapter', '7.8.0.5.2.1'
+  spec.dependency 'AnyThinkMediationJDAdapter', '2.6.6.2.1'
   spec.dependency 'Ads-CN/BUAdSDK', '7.8.0.5'
   spec.dependency 'BaiduMobAdSDK', '10.070'
   spec.dependency 'GDTMobSDK', '4.16.12'
   spec.dependency 'KSAdSDK', '5.9.10.1'
+  spec.dependency 'MagicAdSDK', '0.0.79'
   spec.dependency 'AnyThinkMediationUnityAdsAdapter', '4.19.0.2.0'
   spec.dependency 'AnyThinkMediationVungleAdapter', '7.7.8.2.0'
   spec.dependency 'AnyThinkMediationIronSourceAdapter', '9.6.1.0.2.0'
   spec.dependency 'AnyThinkMediationApplovinAdapter', '13.6.4.2.0'
   spec.dependency 'AnyThinkMediationAdmobAdapter', '13.7.0.2.0'
-  spec.dependency 'AnyThinkMediationFacebookAdapter', '6.22.0.2.2'
+  spec.dependency 'AnyThinkMediationFacebookAdapter', '6.21.1.2.1'
   spec.dependency 'AnyThinkMediationInmobiAdapter', '11.5.0.2.0'
   spec.dependency 'MintegralAdSDK/All', '8.1.6'
   spec.dependency 'AppLovinSDK', '13.6.4'
   spec.dependency 'Google-Mobile-Ads-SDK', '13.7.0'
+  spec.dependency 'BlueSeaSDK', '1.9.0'
+  spec.dependency 'BlueSeaAdmobAdapter', '1.9.0.0'
   spec.dependency 'Ads-Global', '8.3.0.9'
-  spec.dependency 'FBAudienceNetwork', '6.22.0'
+  spec.dependency 'FBAudienceNetwork', '6.21.1'
   spec.dependency 'BigoADS', '6.1.0'
-  spec.dependency 'GoogleMobileAdsMediationFacebook', '6.22.0.0'
+  spec.dependency 'GoogleMobileAdsMediationFacebook', '6.21.1.1.1'
   spec.dependency 'GoogleMobileAdsMediationVungle', '7.7.8.0'
+  spec.dependency 'GoogleMobileAdsMediationBigo', '6.1.0.0'
   spec.dependency 'GoogleMobileAdsMediationPangle', '8.3.0.9.0'
   spec.dependency 'AmazonPublisherServicesSDK', '5.6.6'
   spec.dependency 'AmazonPublisherServicesAdMobAdapter', '4.1.0'
